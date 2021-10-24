@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Project Shopping Cart 🛍️ 🛒 </title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="./favicon.png" type="image/x-icon">
+    <!-- Favicon by FlatIcon.com https://www.flaticon.com/premium-icon/shopping-cart_3145827 -->
+    <script src="https://kit.fontawesome.com/5084150b6f.js" crossorigin="anonymous"></script>
+    <script src="./helpers/fetchItem.js" defer></script>
+    <script src="./helpers/fetchProducts.js" defer></script>
+    <script src="./helpers/saveCartItems.js" defer></script>
+    <script src="script.js" defer></script>
+    <script src="./helpers/getSavedCartItems.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1 class='page_title'>Shopping Trybe</h1>
+      <img src="./shopping-cart.png" alt="Icone-carrinho-de-compras" class="headImg">
+      <span class="cart__title"> <div class="seta__title"></div>Carrinho de compras<div></div></span>
+    </header>
+    <section class="container">
+        <section id="loadtext">
+          <p class="loading">carregando...</p>
+        </section>
+        <section class="content">
+          <section class="search"> <input type="text" class="searchI" placeholder="Pesquisar mais produtos..."> </section>
+          <section class="load">
+          </section>
+                <section class="items">
+                </section>
+              </section>
+      <section class="cart">
+
+        <button class="empty-cart">Esvaziar carrinho</button>
+        <ol class="cart__items">
+          <!-- Products here -->
+        </ol>
+        <section class="price_itens">Total price: $ <p class="price_itens">0,0</p></section>
+        <section class="payout"><em>Levar para casa ..?</em></section>
+      </section>
+    </section>
+  </body>
+</html>
