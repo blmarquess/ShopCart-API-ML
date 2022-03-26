@@ -1,6 +1,5 @@
 # 🛍️ Project Shopping Cart 🛒 
-#### Trybe => SD-16b 
-- [x]  #74  Link do projeto no repo da [Trybe](https://github.com/tryber/sd-016-b-project-shopping-cart/pull/74) <-- &check;
+
 -------------------------------------------------------------------------------------------------------------
 > Requisitos - Projeto 🛒 
 - [x]  1 - Crie uma listagem de produtos
